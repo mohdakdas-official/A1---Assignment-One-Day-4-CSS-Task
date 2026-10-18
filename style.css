@@ -16,15 +16,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: sticky;
+    top: 0;
 
     .navbar {
       width: 100%;
       max-width: 1440px;
       padding: 30px 0;
-      position: sticky;
-      top: 0;
       margin: 0 auto;
+      border-bottom: 1px solid #e0e0e0;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -69,6 +69,7 @@ body {
 
       .hero-left {
         width: 35%;
+        padding: 20px 30px 0 0;
 
         .hero-crown {
           display: flex;
@@ -220,7 +221,7 @@ body {
 
       .hero-right {
         width: 65%;
-        padding: 20px;
+        padding: 20px 0 0 30px;
 
         .hero-right-up {
           width: 100%;
@@ -332,7 +333,7 @@ body {
             }
           }
           .overview-img-container {
-            width: 25%;
+            width: 20%;
 
             display: flex;
             flex-direction: column;
@@ -342,7 +343,7 @@ body {
             gap: 1rem;
 
             .img-thumbnail {
-              width: 80%;
+              width: 100%;
               max-height: 130px;
               overflow: hidden;
               border-radius: 25px;
